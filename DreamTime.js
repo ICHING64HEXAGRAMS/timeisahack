@@ -1,28 +1,3 @@
-/* description: Time itself is a valuable commodity: when humans are viewed as units within an ecological wholistic meme: 28 day, 13 moon day and moon calendar calculator written in reusable javascript
-
-base root src="/dreamspell/sealstones/kin/small/'
-link  /portal/decoder"
-
-      This file is part of  ICHING64HEXAGRAMS | timeisahack |timeitselfmaybeahack
-   
-      https://github.com/ICHING64HEXAGRAMS/timeitselfmaybeahack |
-      https://github.com/ICHING64HEXAGRAMS
-
-    timeisahack is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-    timeisahack is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-    You should have received a copy of the GNU General Public License
-    along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
-    
-    http://www.gnu.org/licenses/gpl-howto.html
-*/
-
-
 function yearmore()
 {
 	var drop_year=curr_year-2002;
@@ -306,11 +281,11 @@ var d_fullyear = d.getFullYear();
 
 date();
 
-document.write('<table cellpadding="0" cellspacing="0"><tbody><tr><td><a href="/portal/decoder"><img src="/dreamspell/sealstones/kin/small/'+kin+'.gif" border=0 align=left hspace=5></a></td>');
+document.write('<table cellpadding="0" cellspacing="0"><tbody><tr><td><a href="/decoder"><img src="kin/small/'+kin+'.gif" border=0 align=left hspace=5></a></td>');
 
 if (moon<=13)
 {
-document.write('<td><span style="font-size:11px;">Moon ' + moon + ' Day ' + mday + '<br />');
+document.write('<td><span style="font-size:18px;">Moon ' + moon + ' Day ' + mday + '<br />');
 }
 if (moon==14)
 {
@@ -319,49 +294,3 @@ document.write('Day Out of Time<br />');
 
 document.write('<strong>' + seal_color[seal] + ' ' + gal_tones[tone] + ' ' + sol_seals[seal] + '</strong><br />');
 document.write(d_date + '.' + (d_month + 1) + '.' + d_fullyear + '</span></td></tr></table>');
-
-
-/*
-     FILE ARCHIVED ON 7:04:22 Jul 29, 2009 AND RETRIEVED FROM THE
-      ON 23:35:19 Jan 7, 2015.
-
-*/
-
-/*
-     FILE edited ON 7:04:22 JAN 26, 2015 AND served hot for your javascript wonderlicious pleasure!
-     
-     edits by L.Hernandez on tortuga island (mother earth)
-     
-     description: Time itself is a valuable commodity: when humans are viewed as units within an ecological wholistic meme: 28 day, 13 moon day and moon calendar calculator written in 2002 javascript
-     
-
-*/
-
-/*
-  http://www.gnu.org/licenses/gpl-howto.html
-  
-      This file is part of  ICHING64HEXAGRAMS | timeisahack |  timeitselfmaybeahack
-      
-      https://github.com/ICHING64HEXAGRAMS/timeitselfmaybeahack
-      https://github.com/ICHING64HEXAGRAMS
-
-    timeisahack is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    timeisahack is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
-    
-    http://www.gnu.org/licenses/gpl-howto.html
-    
-    http://www.gnu.org/licenses/gpl-howto.html
-
-*/
-
-
